@@ -1,7 +1,7 @@
 # onScreenTouches
 Allows you to conveniently work with multi-touches in Solar2D
 
-#ENG
+# ENG
 The `onScreenTouches.lua` file can be placed anywhere in your project. When imported using require, it returns a table.
 
 ```lua
@@ -47,7 +47,7 @@ Example structure of an array element:
 }```
 
 
-#RU
+# RU
 Использование onScreenTouches.lua
 
 Файл `onScreenTouches.lua` можно разместить в любом месте вашего проекта. При подключении через require он возвращает таблицу.
