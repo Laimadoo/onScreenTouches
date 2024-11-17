@@ -1,6 +1,7 @@
 # onScreenTouches
 __ENG__
 Allows you to conveniently work with multi-touch in Solar2D
+
 __RU__
 Позволяет удобно работать с мульти-тачем в Solar2D
 
