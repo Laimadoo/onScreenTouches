@@ -1,8 +1,10 @@
 # onScreenTouches
 __ENG__
+
 Allows you to conveniently work with multi-touch in Solar2D
 
 __RU__
+
 Позволяет удобно работать с мульти-тачем в Solar2D
 
 # ENG
@@ -16,9 +18,11 @@ The returned table provides two methods:
 • `clearTouches`
 
 __Method getTouches__
+
 Returns a table containing the current touches.
 
 __Method clearTouches__
+
 Clears the current touches table and creates a new empty table.
 
 
