@@ -35,11 +35,11 @@ local function onTouch(ev)
     end
 end
 
-L.getTouching = function()
+L.getTouches = function()
     return onScreenTouches
 end
 
-L.clearTouching = function()
+L.clearTouches = function()
     onScreenTouches = {}
 end
 
