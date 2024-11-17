@@ -29,7 +29,6 @@ clears the current touches table and creates a new empty table.
 
 __Method delete:__
 removes all listeners.
-
 Necessary if you don’t plan to monitor multi-touch anymore
 
 
@@ -94,7 +93,6 @@ __Метод clearTouches:__
 
 __Метод delete:__
 удаляет все слушатели.
-
 Нужно если не планируете больше следить за мультитачем
 
 
