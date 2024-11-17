@@ -10,6 +10,7 @@ The `onScreenTouches.lua` file can be placed anywhere in your project. When impo
 local ost = require("onScreenTouches")
 ```
 
+
 The returned table provides two methods:
 
 • `getTouches`
@@ -17,10 +18,11 @@ The returned table provides two methods:
 • `clearTouches`
 
 
-__Method getTouches__
+
+Method getTouches:
 Returns a table containing the current touches.
 
-__Method clearTouches__
+Method clearTouches:
 Clears the current touches table and creates a new empty table.
 
 
@@ -36,6 +38,7 @@ ost.clearTouches()
 
 print(touches == ost.getTouches()) -- false
 ```
+
 
 The table obtained from `ost.getTouches()` is an array.
 Each element of the array contains a `numID` (touch identifier) and the same data as the event table in the touch listener.
@@ -55,12 +58,14 @@ Example structure of an array element:
 ```
 
 
+
 # RU
 Файл `onScreenTouches.lua` можно разместить в любом месте вашего проекта. При подключении через require он возвращает таблицу.
 
 ```lua
 local ost = require("onScreenTouches")
 ```
+
 
 В возвращаемой таблице доступны два метода:
 
@@ -69,10 +74,11 @@ local ost = require("onScreenTouches")
 • `clearTouches`
 
 
-__Метод getTouches__
+
+Метод getTouches:
 Возвращает таблицу с текущими касаниями.
 
-__Метод clearTouches__
+Метод clearTouches:
 Очищает текущую таблицу касаний, создавая новую пустую таблицу.
 
 
@@ -88,6 +94,7 @@ ost.clearTouches()
 
 print(touches == ost.getTouches()) -- false
 ```
+
 
 Получаемая из `ost.getTouches()` таблица является массивом.
 Элементы массива содержат `numID` (номер нажатия) и ту же информацию, что и таблица события в слушателе touch.
