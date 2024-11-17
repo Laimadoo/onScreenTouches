@@ -29,6 +29,7 @@ clears the current touches table and creates a new empty table.
 
 __Method delete:__
 removes all listeners.
+
 Necessary if you don’t plan to monitor multi-touch anymore
 
 
@@ -43,6 +44,8 @@ print(touches == ost.getTouches()) -- true
 ost.clearTouches()
 
 print(touches == ost.getTouches()) -- false
+
+ost.delete()
 ```
 
 
@@ -91,6 +94,7 @@ __Метод clearTouches:__
 
 __Метод delete:__
 удаляет все слушатели.
+
 Нужно если не планируете больше следить за мультитачем
 
 
@@ -105,6 +109,8 @@ print(touches == ost.getTouches()) -- true
 ost.clearTouches()
 
 print(touches == ost.getTouches()) -- false
+
+ost.delete()
 ```
 
 
