@@ -2,6 +2,9 @@ local L = {}
 
 local onScreenTouches = {}
 
+local screen = display.newRect(0, 0, 9999, 9999)
+screen.alpha = 1/255
+
 local function onTouch(ev)
     local id = tonumber(tostring(ev.id):gsub("userdata:", ""), 16)
 
@@ -35,6 +38,14 @@ local function onTouch(ev)
     end
 end
 
+local toFront = function()
+	screen:toFront()
+end
+
+screen:addEventListener("touch", onTouch)
+
+Runtime:addEventListener("enterFrame", toFront)
+
 L.getTouches = function()
     return onScreenTouches
 end
@@ -43,6 +54,9 @@ L.clearTouches = function()
     onScreenTouches = {}
 end
 
-Runtime:addEventListener("touch", onTouch)
+L.delete = function()
+    screen:removeEventListener("touch", onTouch)
+	Runtime:removeEventListener("enterFrame", toFront)
+end
 
 return L
