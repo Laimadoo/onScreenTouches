@@ -7,19 +7,19 @@ local centerY = display.contentCenterY
 local obj = display.newText("", centerX, centerY)
 
 Runtime:addEventListener("touch", function()
-    local touching = ost.getTouching()
+    local touches = ost.getTouches()
 
-    if #touching ~= 2 then
+    if #touches ~= 2 then
         obj.text = ""
         return
     end
 
-    local sx1, sy1 = touching[1].xStart, touching[1].yStart
-    local sx2, sy2 = touching[2].xStart, touching[2].yStart
+    local sx1, sy1 = touches[1].xStart, touches[1].yStart
+    local sx2, sy2 = touches[2].xStart, touches[2].yStart
     local startDist = math.sqrt((sx1 - sx2)^2 + (sy1 - sy2)^2)
 
-    local x1, y1 = touching[1].x, touching[1].y
-    local x2, y2 = touching[2].x, touching[2].y
+    local x1, y1 = touches[1].x, touches[1].y
+    local x2, y2 = touches[2].x, touches[2].y
     local dist = math.sqrt((x1 - x2)^2 + (y1 - y2)^2)
 
     local deltaDist = dist - startDist
