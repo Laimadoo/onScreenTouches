@@ -11,8 +11,11 @@ local ost = require("onScreenTouches")
 ```
 
 The returned table provides two methods:
+
 • `getTouches`
+
 • `clearTouches`
+
 
 __Method getTouches__
 
@@ -64,7 +67,9 @@ local ost = require("onScreenTouches")
 ```
 
 В возвращаемой таблице доступны два метода:
+
 • `getTouches`
+
 • `clearTouches`
 
 
