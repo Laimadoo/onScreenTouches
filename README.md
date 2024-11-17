@@ -17,6 +17,8 @@ The returned table provides two methods:
 
 • `clearTouches`
 
+• `delete`
+
 
 
 __Method getTouches:__
@@ -24,6 +26,10 @@ returns a table containing the current touches.
 
 __Method clearTouches:__
 clears the current touches table and creates a new empty table.
+
+__Method delete:__
+removes all listeners.
+Necessary if you don’t plan to monitor multi-touch anymore
 
 
 Example Usage:
@@ -73,6 +79,8 @@ local ost = require("onScreenTouches")
 
 • `clearTouches`
 
+• `delete`
+
 
 
 __Метод getTouches:__
@@ -80,6 +88,10 @@ __Метод getTouches:__
 
 __Метод clearTouches:__
 очищает текущую таблицу касаний, создавая новую пустую таблицу.
+
+__Метод delete:__
+удаляет все слушатели.
+Нужно если не планируете больше следить за мультитачем
 
 
 Пример использования:
