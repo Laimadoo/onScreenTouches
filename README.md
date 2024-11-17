@@ -1,4 +1,4 @@
-# onScreenTouches
+# Description
 • Allows you to conveniently work with multi-touch in Solar2D
 
 • Позволяет удобно работать с мульти-тачем в Solar2D
