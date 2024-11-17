@@ -1,11 +1,6 @@
 # onScreenTouches
-__ENG__
-
-Allows you to conveniently work with multi-touch in Solar2D
-
-__RU__
-
-Позволяет удобно работать с мульти-тачем в Solar2D
+• Allows you to conveniently work with multi-touch in Solar2D
+• Позволяет удобно работать с мульти-тачем в Solar2D
 
 # ENG
 The `onScreenTouches.lua` file can be placed anywhere in your project. When imported using require, it returns a table.
