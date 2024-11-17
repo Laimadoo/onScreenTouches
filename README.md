@@ -19,11 +19,11 @@ The returned table provides two methods:
 
 
 
-Method getTouches:
-Returns a table containing the current touches.
+__Method getTouches:__
+returns a table containing the current touches.
 
-Method clearTouches:
-Clears the current touches table and creates a new empty table.
+__Method clearTouches:__
+clears the current touches table and creates a new empty table.
 
 
 Example Usage:
@@ -75,11 +75,11 @@ local ost = require("onScreenTouches")
 
 
 
-Метод getTouches:
-Возвращает таблицу с текущими касаниями.
+__Метод getTouches:__
+возвращает таблицу с текущими касаниями.
 
-Метод clearTouches:
-Очищает текущую таблицу касаний, создавая новую пустую таблицу.
+__Метод clearTouches:__
+очищает текущую таблицу касаний, создавая новую пустую таблицу.
 
 
 Пример использования:
