@@ -56,7 +56,7 @@ end
 
 L.delete = function()
     screen:removeEventListener("touch", onTouch)
-	Runtime:removeEventListener("enterFrame", toFront)
+    Runtime:removeEventListener("enterFrame", toFront)
 end
 
 return L
