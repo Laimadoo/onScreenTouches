@@ -18,11 +18,9 @@ The returned table provides two methods:
 
 
 __Method getTouches__
-
 Returns a table containing the current touches.
 
 __Method clearTouches__
-
 Clears the current touches table and creates a new empty table.
 
 
@@ -58,8 +56,6 @@ Example structure of an array element:
 
 
 # RU
-Использование onScreenTouches.lua
-
 Файл `onScreenTouches.lua` можно разместить в любом месте вашего проекта. При подключении через require он возвращает таблицу.
 
 ```lua
@@ -78,6 +74,7 @@ __Метод getTouches__
 
 __Метод clearTouches__
 Очищает текущую таблицу касаний, создавая новую пустую таблицу.
+
 
 Пример использования:
 ```lua
